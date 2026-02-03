@@ -1,0 +1,58 @@
+# BodyFix Vercel Ignore
+# Files/folders to exclude from Vercel deployment
+
+# Git
+.git
+.gitignore
+
+# GitHub
+.github
+
+# Documentation (except README)
+docs/
+*.md
+!README.md
+
+# Environment files
+.env*
+!.env.example
+
+# Test files
+test/
+*_test.dart
+*.test.py
+pytest.ini
+
+# IDE and editor
+.idea/
+.vscode/
+*.iml
+
+# Local development
+.dart_tool/
+.packages
+.pub/
+
+# Build artifacts (handled by Vercel)
+build/
+
+# Supabase local
+supabase/.branches
+supabase/.temp
+.supabase/
+
+# Python virtual env
+.venv/
+venv/
+__pycache__/
+
+# Coverage and test reports
+coverage/
+htmlcov/
+.pytest_cache/
+
+# Misc
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
